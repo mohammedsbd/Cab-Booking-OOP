@@ -1,0 +1,2 @@
+# Ignore DB credentials
+src/dbconfig.properties
