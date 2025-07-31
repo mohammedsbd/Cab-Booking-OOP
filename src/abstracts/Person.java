@@ -1,4 +1,4 @@
-package abstractss;
+package abstracts;
 
 public abstract class Person {
     private int id;

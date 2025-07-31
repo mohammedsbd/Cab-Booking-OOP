@@ -1,2 +1,2 @@
-# Cab-Booking-OOP
-This is a cab booking system made using java with my sql as a part of final project for oop course
+# OOP
+This the a cab booking system forr final project of OOP
