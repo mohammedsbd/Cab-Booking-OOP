@@ -49,26 +49,12 @@ CREATE TABLE Bookings (
 
 🚀 Running the Project
 1. 📥 Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/java-cab-booking-system.git
-cd java-cab-booking-system
-2. 🔧 Compile the Project
-Open a terminal and navigate to your src folder. Then compile:
-
-bash
-Copy
-Edit
-javac -d bin src/**/*.java
-Or compile directly from App.java if you're using an IDE.
-
-3. ▶️ Run the Application
-bash
-Copy
-Edit
-java -cp bin App
-Or simply run App.java from your IDE (e.g., IntelliJ or VS Code).
+git clone https://github.com/mohammedsbd/OOP-FINAL-PROJECT.git
+cd your project_folder
+2. 🔧 Compile the Project and run it
+Open a terminal and navigate to your src folder. compile directly from App.java if you're using an IDE.
+3. Database connection
+Create the database as given above and give your own db connection crdentials inside a dbpropertiesfile
 
 📋 CLI Menu Functionalities
 Once the application runs, you will be presented with a CLI menu offering the following features:
@@ -90,6 +76,7 @@ Assign an available driver to a customer with pickup and drop-off locations.
 
 ❌ Exit
 Exit the application safely.
+all booking logs will we logged in a file called app_logs.txt
 
 🤝 Team Contributions
 Team Member	Contribution Area
