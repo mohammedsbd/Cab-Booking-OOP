@@ -1,5 +1,5 @@
 package Interfaces;
 
-public class Displayable {
-    
+public interface Displayable {
+    void displayInfo();
 }

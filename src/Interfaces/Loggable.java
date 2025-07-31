@@ -1,5 +1,5 @@
 package Interfaces;
 
-public class Loggable {
-    
+public interface Loggable {
+    void logActivity(String message);
 }
