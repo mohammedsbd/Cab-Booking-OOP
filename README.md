@@ -49,7 +49,7 @@ CREATE TABLE Bookings (
 
 🚀 Running the Project
 1. 📥 Clone the Repository
-git clone https://github.com/mohammedsbd/OOP-FINAL-PROJECT.git
+git clone https://github.com/mohammedsbd/Cab-Booking-OOP.git
 cd your project_folder
 2. 🔧 Compile the Project and run it
 Open a terminal and navigate to your src folder. compile directly from App.java if you're using an IDE.
