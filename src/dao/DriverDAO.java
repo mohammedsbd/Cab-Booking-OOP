@@ -15,6 +15,8 @@ public class DriverDAO {
         try (Connection conn = DBConnection.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
 
+                //These lines set the values for the prepared SQL statement’s placeholders (?, ?, ?, ?).
+
             stmt.setString(1, driver.getName());
             stmt.setString(2, driver.getPhone());
             stmt.setString(3, driver.getVehicleNo());

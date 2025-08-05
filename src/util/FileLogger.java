@@ -10,6 +10,10 @@ public class FileLogger {
     private static final String LOG_FILE = "app_logs.txt";
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
+
+
+
+//method
     public static void log(String message) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(LOG_FILE, true))) {
             String timestamp = LocalDateTime.now().format(formatter);
@@ -19,3 +23,33 @@ public class FileLogger {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,9 +1,8 @@
 package service;
 
-import dao.CustomerDAO;
+import dao.CustomerDAO; //import the datbase java file
 import model.Customer;
 import util.FileLogger;
-
 import java.util.List;
 
 public class CustomerService {
